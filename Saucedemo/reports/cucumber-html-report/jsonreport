@@ -1,0 +1,630 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 13,
+        "name": "Login in the Saucedemo",
+        "description": "",
+        "id": "saucedemo-website;login-in-the-saucedemo;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6804509027,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user launch the browser",
+            "match": {
+              "location": "LoginStepdef.the_user_launch_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10635595033,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user open the Saucedemo Home page",
+            "match": {
+              "location": "LoginStepdef.the_user_open_the_saucedemo_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1552147066,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user login using standard_user and secret_sauce",
+            "match": {
+              "arguments": [
+                {
+                  "val": "standard_user",
+                  "offset": 21
+                },
+                {
+                  "val": "secret_sauce",
+                  "offset": 39
+                }
+              ],
+              "location": "LoginStepdef.the_user_login_using_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 26316931350,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click on the login button user nagivate to the next page",
+            "match": {
+              "location": "LoginStepdef.click_on_the_login_button_user_nagivate_to_the_next_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@TC01_Saucedemo"
+          },
+          {
+            "line": 1,
+            "name": "@Saucedemo"
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "Select price-range",
+        "description": "",
+        "id": "saucedemo-website;select-price-range;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8012319239,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "TC02 the user launch the browser",
+            "match": {
+              "location": "PriceRangeStepdef.the_user_launch_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15229924188,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "TC02 the user open the Saucedemo Home page",
+            "match": {
+              "location": "PriceRangeStepdef.tc02_the_user_open_the_saucedemo_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 490176176,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "TC02 the user login using standard_user and secret_sauce",
+            "match": {
+              "arguments": [
+                {
+                  "val": "standard_user",
+                  "offset": 26
+                },
+                {
+                  "val": "secret_sauce",
+                  "offset": 44
+                }
+              ],
+              "location": "PriceRangeStepdef.tc02_the_user_login_using_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 28015084982,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "TC02 click on the login button user nagivate to the next page",
+            "match": {
+              "location": "PriceRangeStepdef.tc02_click_on_the_login_button_user_nagivate_to_the_next_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2892680060,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "TC02 select the price range from low to high",
+            "match": {
+              "location": "PriceRangeStepdef.tc02_select_the_price_range_from_low_to_high()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 15,
+            "name": "@TC02_Saucedemo"
+          },
+          {
+            "line": 1,
+            "name": "@Saucedemo"
+          }
+        ]
+      },
+      {
+        "line": 38,
+        "name": "Select product",
+        "description": "",
+        "id": "saucedemo-website;select-product;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3865390472,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "TC03 the user launch the browser",
+            "match": {
+              "location": "SelectProductStepdef.the_user_launch_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6510096720,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "TC03 the user open the Saucedemo Home page",
+            "match": {
+              "location": "SelectProductStepdef.tc03_the_user_open_the_saucedemo_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 827404050,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "TC03 the user login using standard_user and secret_sauce",
+            "match": {
+              "arguments": [
+                {
+                  "val": "standard_user",
+                  "offset": 26
+                },
+                {
+                  "val": "secret_sauce",
+                  "offset": 44
+                }
+              ],
+              "location": "SelectProductStepdef.tc03_the_user_login_using_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 54907920739,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "TC03 click on the login button user nagivate to the next page",
+            "match": {
+              "location": "SelectProductStepdef.tc03_click_on_the_login_button_user_nagivate_to_the_next_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 702534938,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "TC03 the user select the product",
+            "match": {
+              "location": "SelectProductStepdef.tc03_the_user_select_the_product()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1080627045,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "TC03 adds the product to Add Cart",
+            "match": {
+              "location": "SelectProductStepdef.tc03_adds_the_product_to_add_cart()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Saucedemo"
+          },
+          {
+            "line": 27,
+            "name": "@TC03_Saucedemo"
+          }
+        ]
+      },
+      {
+        "line": 51,
+        "name": "To select product and continue shopping",
+        "description": "",
+        "id": "saucedemo-website;to-select-product-and-continue-shopping;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3900008469,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "TC04 the user launch the browser",
+            "match": {
+              "location": "ContinueShoppingStepdef.the_user_launch_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4249866547,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "TC04 the user open the Saucedemo Home page",
+            "match": {
+              "location": "ContinueShoppingStepdef.tc04_the_user_open_the_saucedemo_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 733150177,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "TC04 the user login using standard_user and secret_sauce",
+            "match": {
+              "arguments": [
+                {
+                  "val": "standard_user",
+                  "offset": 26
+                },
+                {
+                  "val": "secret_sauce",
+                  "offset": 44
+                }
+              ],
+              "location": "ContinueShoppingStepdef.tc04_the_user_login_using_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11803465350,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "TC04 click on the login button user nagivate to the next page",
+            "match": {
+              "location": "ContinueShoppingStepdef.tc04_click_on_the_login_button_user_nagivate_to_the_next_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1564272540,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "TC04 the user select the product and add to cart",
+            "match": {
+              "location": "ContinueShoppingStepdef.tc04_the_user_select_the_product_and_add_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2026908902,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "TC04 the user continue shopping",
+            "match": {
+              "location": "ContinueShoppingStepdef.tc04_the_user_continue_shopping()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 40,
+            "name": "@TC04_Saucedemo"
+          },
+          {
+            "line": 1,
+            "name": "@Saucedemo"
+          }
+        ]
+      },
+      {
+        "line": 65,
+        "name": "To select menu",
+        "description": "",
+        "id": "saucedemo-website;to-select-menu;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7767725828,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "TC05 the user launch the browser",
+            "match": {
+              "location": "MenuStepdef.the_user_launch_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8883868688,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "TC05 the user open the Saucedemo Home page",
+            "match": {
+              "location": "MenuStepdef.tc05_the_user_open_the_saucedemo_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 416488728,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "TC05 the user login using standard_user and secret_sauce",
+            "match": {
+              "arguments": [
+                {
+                  "val": "standard_user",
+                  "offset": 26
+                },
+                {
+                  "val": "secret_sauce",
+                  "offset": 44
+                }
+              ],
+              "location": "MenuStepdef.tc05_the_user_login_using_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 38170639056,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "TC05 click on the login button user nagivate to the next page",
+            "match": {
+              "location": "MenuStepdef.tc05_click_on_the_login_button_user_nagivate_to_the_next_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 275931952,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "TC05 user opens the menu",
+            "match": {
+              "location": "MenuStepdef.tc05_user_opens_the_menu()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 25373201796,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "TC05 user click on About and select Platform",
+            "match": {
+              "location": "MenuStepdef.tc05_user_click_on_about_and_select_platform()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13415984427,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "Tc05 in platform user select Selenium",
+            "match": {
+              "location": "MenuStepdef.tc05_in_platform_user_select_selenium()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Saucedemo"
+          },
+          {
+            "line": 53,
+            "name": "@TC05_Saucedemo"
+          }
+        ]
+      },
+      {
+        "line": 78,
+        "name": "Logout from Saucedemo",
+        "description": "",
+        "id": "saucedemo-website;logout-from-saucedemo;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7428149680,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "TC06 the user launch the browser",
+            "match": {
+              "location": "LogoutStepdef.the_user_launch_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5132739891,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "TC06 the user open the Saucedemo Home page",
+            "match": {
+              "location": "LogoutStepdef.tc06_the_user_open_the_saucedemo_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 465485943,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "TC06 the user login using standard_user and secret_sauce",
+            "match": {
+              "arguments": [
+                {
+                  "val": "standard_user",
+                  "offset": 26
+                },
+                {
+                  "val": "secret_sauce",
+                  "offset": 44
+                }
+              ],
+              "location": "LogoutStepdef.tc06_the_user_login_using_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3717016384,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "TC06 click on the login button user nagivate to the next page",
+            "match": {
+              "location": "LogoutStepdef.tc06_click_on_the_login_button_user_nagivate_to_the_next_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 299175153,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "TC06 user opens the menu",
+            "match": {
+              "location": "LogoutStepdef.tc06_user_opens_the_menu()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5329669342,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "TC06 user click on Logout",
+            "match": {
+              "location": "LogoutStepdef.tc06_user_click_on_logout()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 67,
+            "name": "@TC06_Saucedemo"
+          },
+          {
+            "line": 1,
+            "name": "@Saucedemo"
+          }
+        ]
+      }
+    ],
+    "name": "Saucedemo Website",
+    "description": "",
+    "id": "saucedemo-website",
+    "keyword": "Feature",
+    "uri": "src/main/resources/feature/saucedemo.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Saucedemo"
+      }
+    ]
+  }
+]
